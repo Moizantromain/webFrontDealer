@@ -2,10 +2,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { AcceuilComponent } from './acceuil/acceuil.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AcceuilComponent
   ],
   imports: [
     BrowserModule
