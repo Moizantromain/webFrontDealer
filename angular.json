@@ -123,5 +123,10 @@
       }
     }
   },
-  "defaultProject": "webFrontDealer"
+  "defaultProject": "webFrontDealer",
+  "schematics": {
+    "@schematics/angular:component": {
+      "styleext": "scss"
+    }
+  }
 }
